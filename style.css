@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.hero_section {
+  background-image: url(images/unsplash.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text_container {
+  max-width: 900px;
+  color: white;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-top: 64px;
+}
+
+.lg_text {
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.black_box {
+  background-color: black;
+  padding: 20px;
+}
+
+.black_box h2 {
+  font-size: 72px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.black_box h2 span {
+  font-weight: 400;
+}
